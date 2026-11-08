@@ -22,7 +22,9 @@ class MainActivity : ComponentActivity() {
                 startDestination = "splash"
             ) {
                 composable(route = "splash") {
-                    SplashScreen()
+                    SplashScreen(
+                        navController = TODO()
+                    )
                 }
             }
         }
